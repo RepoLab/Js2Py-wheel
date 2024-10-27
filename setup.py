@@ -3,7 +3,9 @@ try:
 except ImportError:
     from distutils.core import setup
 
-long_desc = '''Translates JavaScript to Python code. Js2Py is able to translate and execute virtually any JavaScript code.
+long_desc = '''Fork of https://github.com/PiotrDabkowski/Js2Py to provide built wheel distribution based on https://pypi.org/project/pyjsparser-wheel/')
+
+Translates JavaScript to Python code. Js2Py is able to translate and execute virtually any JavaScript code.
 
 Js2Py is written in pure python and does not have any dependencies. Basically an implementation of JavaScript core in pure python.
 
