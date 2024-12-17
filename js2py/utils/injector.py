@@ -265,11 +265,6 @@ def write_instruction(op, arg):
         if arg is None:
             return [chr(op), 0]
         return [chr(op), arg & 255]
-        # return [chr(op), arg & 65535]
-        # if arg < 256:
-        #     return [chr(op), arg & 255]
-        # elif arg <= 65536:
-        #     return [chr(op), chr(arg & 255), chr((arg >> 8) & 255)]
         # the code below is for case when extended args are to be determined automatically
         # if op == opcode.EXTENDED_ARG:
         #     return []  # this will be added automatically
