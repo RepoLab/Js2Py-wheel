@@ -117,3 +117,5 @@ package-lock.json
 js2py/node_modules
 js2py/py_node_modules/*
 !js2py/py_node_modules/__init__.py
+/.vs/Js2Py_fork/FileContentIndex
+/.vs
